@@ -13,14 +13,14 @@ import android.net.DhcpInfo;
 import android.net.wifi.WifiManager;
 
 import com.nsx.pilotemybox.utils.Discovery;
-
-public class AndoidDiscovery implements Discovery{
+ 
+public class AndroidDiscovery implements Discovery{
 	Context _Context;
 	static int DISCOVERY_PORT = 8888;
 	List<String> _list;
 	boolean _listen;
 	
-	public AndoidDiscovery(Context context) {
+	public AndroidDiscovery(Context context) {
 		_Context = context;
 		_list = new ArrayList<String>();
 		_listen = true;

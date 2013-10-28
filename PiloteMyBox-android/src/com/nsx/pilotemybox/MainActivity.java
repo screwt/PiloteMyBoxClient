@@ -15,7 +15,7 @@ public class MainActivity extends AndroidApplication {
         AndroidApplicationConfiguration cfg = new AndroidApplicationConfiguration();
         cfg.useGL20 = false;
         
-        final AndoidDiscovery ad = new AndoidDiscovery(this.getApplicationContext());
+        final AndroidDiscovery ad = new AndroidDiscovery(this.getApplicationContext());
         
         Runnable n= (new Runnable(){
 
